@@ -1,0 +1,34 @@
+# EMO Robot — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Voice (offline)
+vosk
+pyaudio
+pyttsx3
+
+# AI Brain (RAG + LLM)
+chromadb
+pypdf
+ollama
+groq
+
+# Telegram Bot
+python-telegram-bot>=20.0
+psutil
+
+# Display (128x64 LCD)
+luma.core
+luma.lcd
+Pillow
+
+# Camera (face detection via OpenCV Haar Cascade)
+opencv-python-headless
+# mediapipe — NOT used (doesn't support RPi ARM)
+
+# Pi Camera (libcamera — Rev 1.3)
+# picamera2 is installed via apt, NOT pip:
+#   sudo apt install python3-picamera2
+
+# Hardware GPIO (RPi only — install fails on non-RPi)
+# RPi.GPIO        ← pre-installed on Raspberry Pi OS
+# pigpio           ← optional, for smoother servo

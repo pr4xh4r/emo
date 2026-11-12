@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Runtime data
+chromadb/
+faces/
+data/
+models/
+*.log
+*.pid
+.emo.pid
+conversation_log.txt
+
+# Photos taken by the robot
+photo_*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
